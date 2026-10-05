@@ -7,15 +7,6 @@
 
 #include "Proceso.h"
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Proceso::sumar(Fraccion f1, Fraccion f2)
-// Purpose:    Implementation of Proceso::sumar()
-// Parameters:
-// - f1
-// - f2
-// Return:     Fraccion
-////////////////////////////////////////////////////////////////////////
-
 Fraccion Proceso::sumar(Fraccion f1, Fraccion f2)
 {
    Fraccion r;

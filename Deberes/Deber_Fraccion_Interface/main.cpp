@@ -24,8 +24,7 @@ int main(){
 	f2.setNumerador(c); f2.setDenominador(d);
 	
 	Proceso proceso;
-	IProceso* ip = &proceso;
-	r = ip -> sumar(f1, f2);
+	r = proceso.sumar(f1, f2);
 	
 	cout << f1.getNumerador() << "/" << f1.getDenominador() << " + " << f2.getNumerador() << "/" << f2.getDenominador() << " = "
          << r.getNumerador() << "/" << r.getDenominador() << endl;
