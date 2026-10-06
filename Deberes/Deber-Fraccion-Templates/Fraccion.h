@@ -11,6 +11,10 @@
 template<typename T>
 class Fraccion {
    public:
+   Fraccion();
+   Fraccion(T numerador, T denominador);
+   ~Fraccion();
+
    T getNumerador(void);
    T setNumerador(T newNumerador);
 
@@ -22,6 +26,22 @@ class Fraccion {
    T numerador;
    T denominador;
 };
+
+template<typename T>
+Fraccion<T>::Fraccion(){
+   numerador = 0;
+   denominador = 1;
+}
+
+template<typename T>
+Fraccion<T>::Fraccion(T numerador, T denominador){
+   this->numerador = numerador;
+   this->denominador = denominador;
+}
+
+template<typename T>
+Fraccion<T>::~Fraccion(){
+}
 
 template<typename T>
 T Fraccion<T>::getNumerador(void){

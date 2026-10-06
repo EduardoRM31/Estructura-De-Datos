@@ -27,4 +27,6 @@ int main(){
     r = proceso.sumar(f1, f2);
 
     cout<<"El resultado de la suma es: " << r.getNumerador() << "/" << r.getDenominador() << endl;
+    
+    return 0;
 }

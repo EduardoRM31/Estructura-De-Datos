@@ -14,11 +14,21 @@
 template<typename T>
 class Proceso : public IProceso<T> {
    public:
+   Proceso();
+   ~Proceso();
    Fraccion<T> sumar(Fraccion<T> f1, Fraccion<T> f2);
 
    private:
    protected:
 };
+
+template<typename T>
+Proceso<T>::Proceso(){
+}
+
+template<typename T>
+Proceso<T>::~Proceso(){
+}
 
 template<typename T>
 Fraccion<T> Proceso<T>::sumar(Fraccion<T> f1, Fraccion<T> f2) {

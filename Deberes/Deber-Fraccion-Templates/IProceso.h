@@ -13,6 +13,7 @@
 template<typename T>
 class IProceso {
    public:
+   virtual ~IProceso() {}
    virtual Fraccion<T> sumar(Fraccion<T> f1, Fraccion<T> f2)=0;
    
    private:
