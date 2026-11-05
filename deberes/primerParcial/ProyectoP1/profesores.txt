@@ -1,0 +1,3 @@
+1712345675|Carlos|Mena|cmena@espe.edu.ec
+1719876540|Ana|Torres|atorres@espe.edu.ec
+1803005071|Juan Pablo|Teheran|jpteheran@espe.edu.ec

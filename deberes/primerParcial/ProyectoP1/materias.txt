@@ -1,0 +1,3 @@
+M01|Estructura de Datos|H1|1712345675
+M02|Programacion Orientada a Objetos|H2|1712345675
+M03|Redes|H1|1719876540
