@@ -1,0 +1,58 @@
+ HEAD
+# Archivos de compilación y ejecutables
+cmake-build-debug/
+cmake-build-release/
+
+:# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+866dea4d10d4b99d5fc3e32cfaf3c1f7d535ac44
+build/
+*.exe
+*.obj
+*.o
+
+# Configuraciones de IDEs
+.idea/
+.vscode/
+.vs/
+*.layout
+*.win
